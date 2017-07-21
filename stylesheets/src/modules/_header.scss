@@ -1,0 +1,40 @@
+.fn-head {
+	
+	.navbar-brand {
+
+		text-indent: -99999px;
+		background: url(images/foodie.png) no-repeat center center;
+		background-size: cover;
+	}
+
+	@media(min-width: $screen-lg) {
+
+		.navbar-brand {
+
+			width: 147px !important;
+			height: 61px !important;
+		}
+
+		.navbar-nav {
+
+			margin-top: ($navbar-padding-vertical / 2);
+			
+			> li > a {
+
+				font-size: 16px;
+				text-transform: uppercase;
+				line-height: 0;
+			}
+
+			> li {
+
+				border-right: 1px solid #cecece;
+
+				&:last-child {
+
+					border-right: none;
+				}
+			}
+		}
+	}
+}

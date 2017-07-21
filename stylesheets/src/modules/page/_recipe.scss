@@ -1,0 +1,23 @@
+#fn-recipe-create {
+	
+	@media(min-width: $screen-lg) {
+
+		h1 {
+
+			font-familt: Lato, sans-serif;
+			font-size: 32px;
+			font-weight: 300;
+		}
+
+		form.frm-create {
+
+			margin-top: 35px;
+			padding-top: 10px;
+
+			label > span.required {
+
+				color: #FF0000;
+			}
+		}
+	}
+}

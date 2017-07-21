@@ -1,0 +1,129 @@
+@media (min-width: $screen-lg) {
+	
+	.fn-main {
+
+		border: 1px solid #cecece;
+		border-radius: 5px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		/*background: #f8f8f8;*/
+	
+		/* column left */
+		.column-left {
+
+			.recipe-container {
+
+				padding: 15px 0;
+				border-bottom: 1px solid #c3c3c3;
+
+				&:last-child {
+
+					border: none;
+				}
+
+				.img-container {
+
+					padding: 5px;
+					border: 1px solid #c3c3c3;
+				}
+
+				.details-container {
+
+					padding-top: 0px;
+
+					h2 {
+
+						font-family: Lato, sans-serif;
+						font-size: 18px;
+						font-weight: bold;
+						line-height: 18px;
+						text-transform: uppercase;
+					}
+
+					h4 {
+
+						font-family: Lato, sans-serif;
+						font-weight: 100;
+						font-size: 10px !important;
+						line-height: 0;
+						text-transform: uppercase;
+					}
+
+					.details {
+
+						font-family: Lato, sans-serif;
+						font-size: 14px;
+						overflow: hidden;
+						position: relative;
+						line-height: 15px;
+						max-height: 78px;
+						text-align: justify;
+						margin-right: -12px;
+						padding-right: 12px;
+						margin-top: 20px;
+					}
+
+					.details:before {
+
+						content: '...';
+						position: absolute;
+						right: 0;
+						bottom: 0;
+					}
+
+					.details:after {
+
+						content: '';
+						position: absolute;
+						right: 0;
+						width: 1em;
+						height: 1em;
+						margin-top: 0.2em;
+						background: #fff;
+					}
+
+					.read-more {
+
+						color: #0000ff;
+						font-family: Lato, sans-serif;
+						font-weight: 900;
+						font-size: 10px;
+					}
+				}
+			}
+		}
+		/* end column left */
+
+		.column-right {
+
+			.btn-create-recipe-container {
+
+				padding: 20px 0;
+				text-align: center;
+			}
+
+			.featured-recipe-container {
+
+				.featured-recipe-title-container {
+					
+					font-family: Lato, sans-serif;
+					font-size: 16px;
+					border: 1px solid #ff8533;
+					border-top-left-radius: 10px;
+					border-top-right-radius: 10px;
+					font-weight: 900;
+					line-height: 25px;
+					background: #ff8533;
+					color: #fff;
+					text-shadow: -1px 1px 1px #000;
+				}
+
+				.featured-recipe-image-container {
+
+					border: 1px solid #ff8533;
+					padding: 10px;
+				}
+			}
+		}
+	}
+}
