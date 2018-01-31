@@ -68,3 +68,16 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+**************
+How to Install
+**************
+
+1. type git clone https://github.com/mhar-daria/yondu-exam.git.
+2. type npm install. note if you get node-sass error. type npm rebuild node-sass.
+3. if you have gulp install go to step 4. type npm install gulp.
+4. type gulp sass. 
+5. create virtual domain for this project eg: recipe.local.
+6. add an entry to your hosts file.
+7. edit the yondu-exam/applications/config/config.php base_url to the url you set.
+8. restart your server.
